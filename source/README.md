@@ -6,6 +6,8 @@ On Linux you need the following packages:
 ```
 sudo apt install gcc-avr avr-libc  avrdude make
 ```
+In order to build the code, open a terminal, step into the src folder and type make.
+Via make program you can program the controller with a avr-isp mk II programmer. 
 
 ## Communicationprotocol
 
