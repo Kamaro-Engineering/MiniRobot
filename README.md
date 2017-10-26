@@ -17,3 +17,8 @@ The stepper motors we used are standard NEMA12 steppers in combination with stan
 The circuit schematics and layouts were done in the EAGLE layout software. The layout is partly in THT and SMD. All ICs apart from the FTDI (which is only available in SMD) are in THT, the resistors and capacitors are mostly in SMD (0805). As they are in 0805 also beginners will be able to solder them with a bit of training. (It sounds hardware that it is ;) 
 
 The only part you have to adjust are the resistor values for the current limit of the L297. Adapt them to your maximum allowed motor current. (R7,R8 and R3,R4)
+
+# Software
+
+We provide a fully functional firmware for the Atmega48 (or 88). See the readme in the source subfolder for the serial communication protocol. (It's really simple, just 4 bytes). In most case the only thing you might have to adapt are the constants of the odomotry which is calculated with the amount of steps done by the steppers. For example in case you use a stepper with smaller steps or larger wheels you will have to adapt these constants.
+
