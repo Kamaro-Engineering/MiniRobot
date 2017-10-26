@@ -5,7 +5,7 @@ This mini robot platform was developed as an entry project for the [KAMARO](http
 
 ![robot](https://github.com/firesurfer/MiniRobot/blob/master/doc/DSC_0270.JPG)
 
-![robot1](https://github.com/firesurfer/MiniRobot/blob/master/doc/DSC_0271.JPG)
+
 
 # CAD / Mechanics
 
@@ -27,4 +27,6 @@ The four drill holes in the middle can be used in order to mount a raspberry pi 
 We provide a fully functional firmware for the Atmega48 (or 88). See the readme in the source subfolder for the serial communication protocol. (It's really simple, just 4 bytes). In most case the only thing you might have to adapt are the constants of the odomotry which is calculated with the amount of steps done by the steppers. For example in case you use a stepper with smaller steps or larger wheels you will have to adapt these constants.
 
 See the [software readme](source/README.md)!
+
+![robot1](https://github.com/firesurfer/MiniRobot/blob/master/doc/DSC_0271.JPG)
 
