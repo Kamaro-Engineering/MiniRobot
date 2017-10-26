@@ -3,9 +3,9 @@ All construction files for a mini robot platform.
 
 This mini robot platform was developed as an entry project for the [KAMARO](https://kamaro-engineering.de/) student group. 
 
-![robot][doc/DSC_0270.JPG]
+![robot][doc/DSC_0270]
 
-![robot][doc/DSC_0271.JPG]
+![robot][doc/DSC_0271]
 
 # CAD / Mechanics
 
