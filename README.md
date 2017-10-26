@@ -18,7 +18,11 @@ The circuit schematics and layouts were done in the EAGLE layout software. The l
 
 The only part you have to adjust are the resistor values for the current limit of the L297. Adapt them to your maximum allowed motor current. (R7,R8 and R3,R4)
 
+The four drill holes in the middle can be used in order to mount a raspberry pi 2 (or 3).
+
 # Software
 
 We provide a fully functional firmware for the Atmega48 (or 88). See the readme in the source subfolder for the serial communication protocol. (It's really simple, just 4 bytes). In most case the only thing you might have to adapt are the constants of the odomotry which is calculated with the amount of steps done by the steppers. For example in case you use a stepper with smaller steps or larger wheels you will have to adapt these constants.
+
+See the [software readme](source/README.md)!
 
