@@ -4,6 +4,7 @@ All construction files for a mini robot platform.
 This mini robot platform was developed as an entry project for the [KAMARO](https://kamaro-engineering.de/) student group. 
 
 ![robot](https://github.com/firesurfer/MiniRobot/blob/master/doc/DSC_0270.JPG)
+(The display is not part of this project but by chance the drill holes fitted)
 
 
 
